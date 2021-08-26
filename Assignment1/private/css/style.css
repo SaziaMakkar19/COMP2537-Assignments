@@ -1,0 +1,53 @@
+body {
+    background-color: #F0F1F3;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#topic {
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    color: white;
+    font-size: 45px;
+}
+
+#quote {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: white;
+    font-size: 25px;
+}
+
+#challenge {
+    background-color: #FFFFFF;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #364955;
+}
+
+#body {
+    padding-left: 10px;
+    font-size: 25px;
+    color: #0D1211;
+}
+
+#date {
+    padding-left: 10px;
+    font-size: 25px;
+    color: #364955;
+}
+
+hr {
+    width: 600px;
+}
