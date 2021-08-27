@@ -1,0 +1,47 @@
+body{
+  padding: 2%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+
+header {
+  background-color: rgb(169, 233, 233);
+  margin-bottom:20px;
+}
+header h1{
+  text-align: center;
+  float:left;
+  margin:2rem;
+  font-size:3rem;
+  
+}
+
+#logout{
+  float:right;
+  margin-right: 20px;
+}
+
+#info{
+  margin:20px;
+}
+
+#content {
+  display:grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap:10px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+#leftContent{
+  grid-column: 1/2;
+  background-color: lightgreen;
+
+}
+
+#rightContent{
+  grid-column: 2/3;
+
+}

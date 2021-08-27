@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/template-css/group.css" alt="backgroud">
+    <!-- ajax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="back_button">Back</button>
+    <div id="header">
+        <h2 id="title">The Environment Club</h2>
+        <p id="desc">The Environment club is a voluntary group comprising of students and teachers which promotes
+            participation of students in learning about and working towards the conservation and sustainability of their
+            environment.<p>
+    </div>
+    <h2 id="objectives">OUR OBJECTIVES:</h2>
+    <div class="card-group">
+        <div class="card">
+            <!-- <img src="/assign3/assets/img/objective1.png" class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <p class="card-text">To raise awareness among students so that they understand environmental
+                    issuesEnvironmental awareness is an integral part of the movement’s success. By teaching our friends
+                    and family that the physical environment is fragile and indispensable, we can begin fixing the
+                    problems that threaten it.</p>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <img src="/assign3/assets/img/objective2.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <p class="card-text">To instill a sense of responsibility for the environment and a personal commitment
+                    to protect and preserve the environment.Teaching our children about natural resources, ecosystems
+                    and respect for flora and fauna is a crucial way of safeguarding the future of our planet.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <img src="/assign3/assets/img/objective3.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <p class="card-text">To educate and cultivate an appreciation and interest in the environment.We should
+                    learn about the importance of trees, how they benefit our lives and what we can do to help our tree
+                    and other trees in our community. </p>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("#back_button").click(function () {
+                    $.ajax({
+                        success: function (data) {
+                            console.log("back clicked")
+                            window.location.replace("/display-content");
+                            
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            console.log("Error on back page");
+                        }
+                    });
+
+                });
+
+            });
+        </script>
+</body>
+
+</html>

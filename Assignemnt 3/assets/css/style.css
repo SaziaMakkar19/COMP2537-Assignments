@@ -1,0 +1,21 @@
+body{
+  background-image: url("/img/background.jpg");
+}
+
+#formTitle{
+  text-align: center;
+  color:darkgreen;
+  margin: 5%;
+}
+
+form {
+  margin:10%;
+  padding: 10px;
+  background-color: lightgreen;
+  border: solid darkgrey 3px;
+  border-radius: 5px;
+}
+
+#forgotp{
+  color:darkblue;
+}

@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+body {
+    font-family: 'Hind', sans-serif;
+    height: 100%;
+    margin: 0%;
+}
+
+
+#list {
+    width: 80%;
+    margin: auto;
+}
+
+.jumbotron {
+    color: black;
+
+}
+
+
+.form-group {
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+.head {
+    color: red;
+}
+
+.name {
+    text-align: center;
+    /* font-size: 3vw; */
+}
